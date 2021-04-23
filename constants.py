@@ -1,0 +1,8 @@
+KEY_ALREADY_PRESENT_ERROR = "The Key you requested to create is already present in the datastore"
+KEY_INVALID_ERROR = "The Key does not comply with the predefined format (String and Max Length 32 chars)"
+KEY_NOT_PRESENT_ERROR = "The Key you are trying to access is not present"
+KEY_EXPIRED_ERROR = "The Key you are trying to access has expired"
+VALUE_LENGTH_ERROR = "Value Exceeds the limit of 16KB"
+VALUE_FORMAT_ERROR = "Value is not a valid JSON"
+MULTIPLE_INSTANCE_EXCEPTION = "Cannot Create multiple instances with same path"
+FILE_LIMIT_EXCEEDED_EXCEPTION = "File size has reached the limit of 1GB, cannot perform the operation"
